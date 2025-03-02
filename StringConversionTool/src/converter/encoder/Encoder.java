@@ -28,7 +28,7 @@ public class Encoder {
 	// Main runtime
 	public void string2Binary() {
 		// Get the strings character array
-		// Iterate through that byte array and convert the values
+		// Iterate through that character array and convert the characters, then build the string
 		char[] chars = this.stringToEncode.toCharArray();
 		builder = new StringBuilder();
 		
